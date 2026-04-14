@@ -36,14 +36,16 @@ The following six architectures are implemented sequentially as `Net1` to `Net6`
 ## Environment Dependencies
 ```txt
 Python==3.12.11
+torch==2.10.0
+torchaudio==2.10.0
+torchvision==0.25.0
 numpy==2.3.3
-matplotlib==3.10.6
-seaborn==0.13.2
-scikit-learn==1.7.2
-tensorflow==2.20.0
-pillow==11.3.0
-scipy==1.16.2
 pandas==2.3.3
+seaborn==0.13.2
+matplotlib==3.10.6
+scikit-learn==1.7.2
+scipy==1.16.2
+pillow==11.3.0
 ```
 
 
@@ -56,6 +58,9 @@ cd GTZAN-Music-Genre-Classification
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Run code
+python main.py
 ```
 
 
